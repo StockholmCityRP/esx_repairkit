@@ -77,7 +77,7 @@ AddEventHandler('esx_repairkit:onUse', function()
 		end
 
 		Citizen.CreateThread(function()
-			Citizen.Wait(0)
+			Citizen.Wait(10)
 
 			if CurrentAction ~= nil then
 				SetTextComponentFormat('STRING')
