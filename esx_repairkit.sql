@@ -3,5 +3,5 @@ INSERT INTO `items` (`name`, `label`, `limit`) VALUES
 ;
 
 INSERT INTO `shops` (name, item, price) VALUES
-	('LTDgasoline', 'repairkit', 1500)
+	('LTDgasoline', 'repairkit', 3000)
 ;
